@@ -1,11 +1,92 @@
+/* Eléments principaux de la page */
 h2
 {
 	color: red;
-	border: 2px green solid;
 }
 
 h1, h1+p
 {
 	text-align: center;
 	text-shadow: 2px 5px 5px yellow; 
+}
+
+.hello
+{
+	color:blue;
+	
+	font-size: 20px;
+}
+
+#toute_la_page
+{   width:100%;
+	height:100%;
+	/*margin:auto;*/
+	
+}
+
+/* Liseret */
+
+#liseret
+{
+	width:10%;
+	float: left;
+	border : 2px solid black;
+	height: 600px; 
+	background-color: gray;
+	border-radius:20px;
+}
+
+#i
+{
+	text-align: center;
+	color:blue;
+	font-size: 22px;
+	text-shadow: 2px 5px 5px yellow;
+	position: relative;
+    top: 250px;
+}
+
+/* La partie de droite */
+
+#partie_droite
+{   width:87%;
+	margin-left:2%;
+	height: 100%;
+}
+
+#liseret, #partie_droite
+{
+	display:inline-block;
+	vertical-align:top;
+}
+
+/* Header */
+
+#entete_1
+{
+	width:96%;
+}
+
+
+/* Section */
+
+#pr
+{
+	width:33%;
+}
+
+#sd
+{
+	width:25%;
+}
+
+#trs
+{
+	width:28%;
+}
+
+#pr, #sd, #trs
+{
+	display:inline-block;
+	vertical-align:top;
 }
