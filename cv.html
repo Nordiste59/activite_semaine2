@@ -3,40 +3,59 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width" />
+			
+			<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			
+			<!--[if lte IE 7]>
+			<link rel="stylesheet" href="style_ie.css" />
+			<![endif]-->
+
 		<title>CV de MIMI</title>
 	</head>
 	
 	<body>
-		<h1> Mimo MIMI</h1>
-		<p> Professeur de Mathématiques</p>
+		<div id="toute_la_page">
+			<div id="liseret">
+				<p id="i">CV<br/>de<br/>MIMI</p>
+			</div>
+	
+			<div id="partie_droite">
+				<header>
+					<div id="entete_1">
+						<h1> Mimo MIMI</h1>
+						<p> Professeur de Mathématiques</p>
+					</div>
+				</header>
+				
+				<section>
+					<div id="pr">
+						<h2>Mon expérience</h2>
+						<ul>
+							<li> <strong> De 2000 à 2008 </strong> : professeur au collège ZOLA à Marseille.</li>
+							<li> <strong> De 2009 à 2012 </strong> : professeur au lycée FENELON à Tours.</li>
+							<li> <strong> De 2013 à aujourd'hui </strong> : professeur <span class="hello">agrégé</span> au lycée DESCARTES à Lille.</li>
+						</ul>
+					</div>
 		
-		<section>
-		<div>
-			<h2>Mon expérience</h2>
+					<div id="sd">
+						<h2>Mes compétences</h2>
+						<ul>
+							<li> Algèbre</li>
+							<li> Analyse</li>
+							<li> Géométrie</li>
+							<li> Probabilités et statistiques</li>
+						</ul>
+					</div>
 		
-				<ul>
-					<li> <strong> De 2000 à 2008 </strong> : professeur au collège ZOLA à Marseille.</li>
-					<li> <strong> De 2009 à 2012 </strong> : professeur au lycée FENELON à Tours.</li>
-					<li> <strong> De 2013 à aujourd'hui </strong> : professeur <strong>agrégé</strong> au lycée DESCARTES à Lille.</li>
-				</ul>
+					<div id="trs">
+						<h2>Ma formation</h2>
+						<p class="hello">Alors là c'est simple...j'ai tout appris à l'université !</p>
+					</div>
+				</section>
+			</div>	
 		</div>
-		
-		<div>
-			<h2>Mes compétences</h2>
-		
-				<ul>
-					<li> Algèbre</li>
-					<li> Analyse</li>
-					<li> Géométrie</li>
-					<li> Probabilités et statistiques</li>
-				</ul>
-		</div>
-		
-		<div>
-			<h2>Ma formation</h2>
-			<p>Alors là c'est simple...j'ai tout appris à l'université !</p>
-		</div>
-		</section>
-		
 	</body>
 </html>
